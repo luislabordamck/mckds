@@ -1,0 +1,27 @@
+{
+  "kit": {
+    "name": "MCK-DS Make Toolkit",
+    "package": "@mckmds/ui",
+    "version": "0.1.2",
+    "setup": [
+      "import '@mckmds/ui/styles.css'"
+    ],
+    "components": [
+      {
+        "name": "Button",
+        "import": "import { Button } from '@mckmds/ui'",
+        "variants": ["default", "secondary", "outline", "ghost", "destructive", "link"]
+      },
+      {
+        "name": "Input",
+        "import": "import { Input } from '@mckmds/ui'"
+      }
+    ],
+    "rules": [
+      "ALWAYS import '@mckmds/ui/styles.css' at the top of every file",
+      "NEVER use raw <button> or <input> HTML elements",
+      "ALWAYS use Button and Input from @mckmds/ui",
+      "NEVER hardcode colors — use CSS token classes like bg-primary"
+    ]
+  }
+}
