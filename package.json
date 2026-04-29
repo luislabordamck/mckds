@@ -1,13 +1,28 @@
 {
-  "name": "mckds",
+  "name": "@mckmds/ui",
   "version": "0.1.0",
-  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": ["dist"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pkg": "tsup src/index.ts --format cjs,esm --no-dts --out-dir dist",
     "start": "next start",
     "lint": "eslint",
     "tokens": "node scripts/build-tokens.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -31,6 +46,7 @@
     "eslint-config-next": "16.2.4",
     "style-dictionary": "^5.4.0",
     "tailwindcss": "^4",
+    "tsup": "^8.0.0",
     "typescript": "^5"
   }
 }
