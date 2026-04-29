@@ -1,0 +1,139 @@
+/* =================================================================
+   McKesson Design System — Generated Tokens
+   Source:  tokens/Style_tokens.json
+   Command: npm run tokens
+   ⚠️  DO NOT EDIT — regenerate with npm run tokens
+   ================================================================= */
+
+:root {
+
+  /* ── Primary — McKesson Navy Blue ── */
+  --mck-p600: #003654;
+  --mck-p500: #004870;
+  --mck-p400: #005A8C;
+  --mck-p300: #669cba;
+  --mck-p200: #99bdd1;
+  --mck-p100: #bfd6e2;
+  --mck-p75: #ccdee8;
+  --mck-p50: #e5eef3;
+
+  /* ── Secondary — Grays ── */
+  --mck-s400: #999999;
+  --mck-s300: #cccccc;
+  --mck-s200: #dddad8;
+  --mck-s100: #e0e0e0;
+  --mck-s75: #ebebeb;
+  --mck-s50: #f5f5f5;
+  --mck-white: #ffffff;
+  --mck-black: #000000;
+
+  /* ── Semantic — Feedback Colors ── */
+  --mck-warning400: #B95915;
+  --mck-warning300: #ef8200;
+  --mck-warning200: #f5b466;
+  --mck-warning100: #fbe0bf;
+  --mck-warning50: #fdf2e5;
+  --mck-info100: #702c6a;
+  --mck-info50: #f0e9f0;
+  --mck-success300: #5B8E22;
+  --mck-success200: #BDD2A7;
+  --mck-success100: #D6E3C8;
+  --mck-success50: #EEF3E8;
+  --mck-error100: #B2060A;
+  --mck-error50: #F7E6E6;
+
+  /* ── Tertiary ── */
+  --mck-t300: #666666;
+  --mck-t200: #88746A;
+  --mck-t100: #AEA6A3;
+  --mck-t50: #E7E3E1;
+
+  /* ── Utility ── */
+  --mck-utility-link-blue: #0002C8;
+  --mck-utility-table-highlight-green: #C0FFC0;
+  --mck-utility-table-highlight-yellow: #FFE199;
+  --mck-utility-print-label-header: #7BA1C7;
+
+  /* ── Spacing ── */
+  --mck-spacing0: 0px;
+  --mck-spacing1: 1px;
+  --mck-spacing2: 2px;
+  --mck-spacing4: 4px;
+  --mck-spacing5: 5px;
+  --mck-spacing6: 6px;
+  --mck-spacing8: 8px;
+  --mck-spacing10: 10px;
+  --mck-spacing12: 12px;
+  --mck-spacing16: 16px;
+  --mck-spacing24: 24px;
+  --mck-spacing32: 32px;
+  --mck-spacing40: 40px;
+
+  /* ── Border Radius ── */
+  --mck-borderRadius0: 0px;
+  --mck-borderRadius2: 2px;
+  --mck-borderRadius4: 4px;
+  --mck-borderRadius6: 6px;
+  --mck-borderRadius8: 8px;
+  --mck-borderRadiusFull: 50%;
+
+  /* ── Typography ── */
+  --mck-font-base: Arial;
+  --mck-font-mono: Menlo;
+  --mck-font-size-xxs: 7px;
+  --mck-font-size-xs: 10px;
+  --mck-font-size-sm: 11px;
+  --mck-font-size-md: 14px;
+  --mck-font-size-lg: 19px;
+
+  /* =================================================================
+     ShadCN Token Mappings — Light Mode
+     bg-primary, text-foreground, bg-destructive etc. read from here
+     ================================================================= */
+
+  --background:             #ffffff;
+  --foreground:             #003654;
+  --card:                   #ffffff;
+  --card-foreground:        #003654;
+  --popover:                #ffffff;
+  --popover-foreground:     #003654;
+  --primary:                oklch(0.318 0.074 240.8);
+  --primary-foreground:     oklch(1.000 0.000 89.9);
+  --secondary:              oklch(0.970 0.000 89.9);
+  --secondary-foreground:   oklch(0.318 0.074 240.8);
+  --muted:                  oklch(0.940 0.000 89.9);
+  --muted-foreground:       oklch(0.683 0.000 89.9);
+  --accent:                 oklch(0.944 0.012 231.7);
+  --accent-foreground:      oklch(0.318 0.074 240.8);
+  --destructive:            oklch(0.482 0.194 28.4);
+  --destructive-foreground: oklch(1.000 0.000 89.9);
+  --border:                 #e0e0e0;
+  --input:                  #e0e0e0;
+  --ring:                   oklch(0.449 0.109 243.1);
+  --radius:                 8px;
+}
+
+.dark {
+  /* =================================================================
+     ShadCN Token Mappings — Dark Mode
+     ================================================================= */
+
+  --background:             #003654;
+  --foreground:             #ffffff;
+  --card:                   #004870;
+  --card-foreground:        #ffffff;
+  --popover:                #004870;
+  --popover-foreground:     #ffffff;
+  --primary:                oklch(1.000 0.000 89.9);
+  --primary-foreground:     oklch(0.318 0.074 240.8);
+  --secondary:              oklch(0.385 0.092 242.2);
+  --secondary-foreground:   oklch(1.000 0.000 89.9);
+  --muted:                  oklch(0.385 0.092 242.2);
+  --muted-foreground:       oklch(0.683 0.000 89.9);
+  --accent:                 oklch(0.449 0.109 243.1);
+  --accent-foreground:      oklch(1.000 0.000 89.9);
+  --destructive:            oklch(0.482 0.194 28.4);
+  --border:                 oklch(0.449 0.109 243.1);
+  --input:                  oklch(0.449 0.109 243.1);
+  --ring:                   oklch(0.944 0.012 231.7);
+}
