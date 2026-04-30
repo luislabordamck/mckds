@@ -1,8 +1,18 @@
 # McKesson Design System
 
-Read the full guidelines from the installed package:
-node_modules/@make-kits/mck-ds-make-toolkit/guidelines/Guidelines.md
-node_modules/@make-kits/mck-ds-make-toolkit/guidelines/setup.md
-node_modules/@make-kits/mck-ds-make-toolkit/guidelines/CLAUDE.md
+## For Figma Make users
+Start every new Figma Make file with this prompt:
 
-Follow ALL instructions in those files before writing any code.
+"Install @mckmds/ui then [describe what you want to build]"
+
+Example:
+"Install @mckmds/ui and create a login form with email input, 
+password input, Sign In button, and Forgot Password ghost button"
+
+## For developers
+npm install @mckmds/ui
+import "@mckmds/ui/styles.css"
+import { Button, Input } from "@mckmds/ui"
+
+## Package
+npmjs.com/package/@mckmds/ui
