@@ -52,7 +52,7 @@ __export(index_exports, {
 });
 module.exports = __toCommonJS(index_exports);
 
-// components/ui/button.tsx
+// components/button/button.tsx
 var import_class_variance_authority = require("class-variance-authority");
 var import_radix_ui = require("radix-ui");
 
@@ -63,7 +63,7 @@ function cn(...inputs) {
   return (0, import_tailwind_merge.twMerge)((0, import_clsx.clsx)(inputs));
 }
 
-// components/ui/button.tsx
+// components/button/button.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
 var buttonVariants = (0, import_class_variance_authority.cva)(
   "group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
@@ -118,7 +118,7 @@ function Button(_a) {
   );
 }
 
-// components/ui/input.tsx
+// components/input/input.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
 function Input(_a) {
   var _b = _a, { className, type } = _b, props = __objRest(_b, ["className", "type"]);
