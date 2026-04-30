@@ -1,6 +1,6 @@
 {
   "name": "@mckmds/ui",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -12,14 +12,15 @@
     },
     "./styles.css": "./dist/styles.css"
   },
-  "files": ["dist", "guidelines"],
+  "files": ["dist", "guidelines", "scripts/postinstall.js"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "build:pkg": "tsup src/index.ts --format cjs,esm --no-dts --out-dir dist && cp app/tokens.css dist/styles.css",
     "start": "next start",
     "lint": "eslint",
-    "tokens": "node scripts/build-tokens.js"
+    "tokens": "node scripts/build-tokens.js",
+    "postinstall": "node scripts/postinstall.js"
   },
   "publishConfig": {
     "access": "public"
