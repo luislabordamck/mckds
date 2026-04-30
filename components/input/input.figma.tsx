@@ -3,7 +3,7 @@ import { Input } from "./input"
 
 figma.connect(
   Input,
-  "https://www.figma.com/design/ndwbHKfWbUuqMjsWJCiU3z?node-id=18-32",
+  "https://www.figma.com/design/ndwbHKfWbUuqMjsWJCiU3z?node-id=36-77",
   {
     props: {
       disabled: figma.enum("state", {
