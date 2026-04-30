@@ -3,14 +3,15 @@
 ## Installation
 The toolkit is installed as @make-kits/mck-ds-make-toolkit
 
-## ⚠️ REQUIRED — Add to src/styles/index.css as the LAST import
-import "@make-kits/mck-ds-make-toolkit/dist/styles.css"
-
-This must come AFTER default_shadcn_theme.css to override it.
-McKesson navy blue (#003654) replaces the default purple primary.
-
-## In src/styles/index.css add this as the final line:
+## ⚠️ REQUIRED — Add as the LAST line of src/styles/index.css
 @import "@make-kits/mck-ds-make-toolkit/dist/styles.css";
+
+This MUST be the last import — it overrides the default ShadCN purple theme
+with McKesson navy blue (#003654).
+
+## Verify
+Primary buttons should be navy blue #003654.
+If purple → the import is missing or not last in index.css.
 
 ## Components
 import { Button } from "@make-kits/mck-ds-make-toolkit"
